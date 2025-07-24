@@ -1,3 +1,44 @@
 <!-- your html code here -->
+<!--Todas las clases de services con "sv" delante-->
+<!--<h3>Reglas para no perder la cabeza con git</h3>
+    <ol>
+        <li>LO QUE NO TE TOCA, NO SE TOCA</li>
+        <li>en main/master NO se trabaja</li>
+        <li>Siempre debe de crearse una rama develop y NO se trabaja en ella</li>
+        <li>TODAS LAS RAMAS DE TRABAJO, SALEN DE DEVELOP</li>
+        <li>antes de comenzar a trabajar, hacer un pull de develop</li>
+        <li>mi rama siempre tiene que estar sincronizada con develop. cada vez que se haga un PR, yo tengo que hacer pull</li>-->
 <p>Hello, I'm the services.html</p>
 <p>Hello, I'm the services section and I was loaded using ajax from templates/services.html</p>
+
+<div class="container-fluid" id="services-container">
+       <div class="row">
+        <div class="col-md-4 col-sm-2 d-flex justify-content-end ">
+            <div class="sv-image-div">
+                <img src="https://picsum.photos/300/300" class="  rounded-circle" alt="Imagen services">
+            </div>
+        </div>
+         <div class="col-md-7 col-sm-6">
+            <div class="  align-items-center justify-content-start " id="sv-text-header">
+                <h1 class="text-secondary"><strong class="sv-strong">The Second Heading</strong> is pretty cool too. </h1>
+                 <p>Donec ullamcorper nulla non metus auctor fringilla.<br>Vestibulum id ligula porta felis 
+                    euismod semper.<br> Praesent commodo cursus magna, vel scelerisque nisl consecteur.<br>
+                    Fusce dapibus, tellus ac cursus commodo.
+                 </p>
+            </div>
+         </div>
+       </div>
+       <style>
+        .sv-strong{
+            color  : rgb(63, 63, 63)
+        }
+       </style>
+
+ </div>
+
+
+<!-- <h1>The Second Heading </h1><h1 class="text-secondary">is pretty cool too.</h1>
+        <p>Donec ullamcorper nulla non metus auctor fringilla.Vestibulum id ligula porta felis 
+            euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consecteur.
+            Fusce dapibus, tellus ac cursus commodo.
+        </p>-->
