@@ -8,7 +8,6 @@ body {
     background-image: url(../img/bg.jpg);
     background-size: cover;
     background-position: bottom;
-    margin-top: 60px;
     height: 400px;
     display: flex;
     flex-direction:column;
