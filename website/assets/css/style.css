@@ -1,10 +1,12 @@
 
 body {
-  background: #ffffff;
+  background: white;
+  
 }
 
 
 .tagline{
+  
     background-image: url(../img/bg.jpg);
     background-size: cover;
     background-position: bottom;
